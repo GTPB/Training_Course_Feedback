@@ -1,12 +1,34 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl"
      xml:base="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl">
+        <dc:contributor>Alexandra Caetano</dc:contributor>
+        <dc:contributor>Daniel Faria</dc:contributor>
+        <dc:contributor>Pedro Fernandes</dc:contributor>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     
 
 
@@ -31,20 +53,22 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#extra_organization_issues -->
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_theme -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#extra_organization_issues">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_assessment"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_theme">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_course_feedback_subject"/>
+        <rdfs:comment>Course theme about which the participant would be interested in learning</rdfs:comment>
+        <rdfs:label>course_theme</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#future_themes -->
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#extra_organization -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#future_themes">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_course_feedback_subject"/>
-        <rdfs:comment xml:lang="en">Course themes about which the participant would be interested in learning</rdfs:comment>
-        <rdfs:label xml:lang="en">Future themes</rdfs:label>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#extra_organization">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_assessment"/>
+        <rdfs:comment>A subject related to the organization of a training course out of the scope of the organization team.</rdfs:comment>
+        <rdfs:label>Extra-organization</rdfs:label>
     </owl:Class>
     
 
@@ -53,6 +77,8 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#organization_centred">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_assessment"/>
+        <rdfs:comment>A subject related to the organization of a training course in which the organization team is directly involved.</rdfs:comment>
+        <rdfs:label>Organization centred</rdfs:label>
     </owl:Class>
     
 
@@ -61,6 +87,8 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_centred">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_assessment"/>
+        <rdfs:comment>A subject related to the participant attendance and experience in a training course</rdfs:comment>
+        <rdfs:label>Participant-centred</rdfs:label>
     </owl:Class>
     
 
@@ -78,7 +106,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#publicity_source">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_course_feedback_subject"/>
-        <rdfs:comment xml:lang="en">Where the participant learned about the course</rdfs:comment>
+        <rdfs:comment xml:lang="en">source where the participant learned about the course</rdfs:comment>
         <rdfs:label xml:lang="en">Publicity source</rdfs:label>
     </owl:Class>
 </rdf:RDF>
