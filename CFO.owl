@@ -43,12 +43,133 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#accreditation -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#accreditation">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#materials"/>
+        <rdfs:comment>A comment related to the formal documentation accredited in a training course (e.g. certificates of attendance, diplomas)</rdfs:comment>
+        <rdfs:label>Accreditation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#activity -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#activity">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#structure"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#time_management"/>
+        <rdfs:comment>A comment related to the activities performed in the course</rdfs:comment>
+        <rdfs:label>Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#admission -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#admission">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#registration"/>
+        <rdfs:comment>A comment related to the acceptance process and procedures for a training course</rdfs:comment>
+        <rdfs:label>Admission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#after_course_activities -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#after_course_activities">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#social"/>
+        <rdfs:comment>A comment related to the promotion and organization of local and/or online activities after the end date of a training course</rdfs:comment>
+        <rdfs:label>After-course activities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#air_quality -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#air_quality">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#climate"/>
+        <rdfs:comment>A comment related to the air quality of the training room where a training course takes place</rdfs:comment>
+        <rdfs:label>Air quality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#announcement -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#announcement">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_logistics"/>
         <rdfs:comment>A subject related to the announcement of a training course</rdfs:comment>
         <rdfs:label>Announcement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#answer_key -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#answer_key">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#auxiliary"/>
+        <rdfs:comment>A comment related to the use of answer keys to explicit the results and solutions of the exercises and assignments in a training course</rdfs:comment>
+        <rdfs:label>Answer key</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#application -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#application">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#registration"/>
+        <rdfs:comment>A comment related to the application process and procedures of a training course</rdfs:comment>
+        <rdfs:label>Application</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#approach -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#approach">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_methodology"/>
+        <rdfs:comment>A comment related to the approach selected to cover the theme of a training course</rdfs:comment>
+        <rdfs:label>Approach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#assessment_instruments -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#assessment_instruments">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#strategies"/>
+        <rdfs:comment>A subject related to the assessment of the participant&apos;s learning process in a training course</rdfs:comment>
+        <rdfs:label>Assessment instruments</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#assignments -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#assignments">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_instruments"/>
+        <rdfs:comment>A comment related to the type of assignments and tasks proposed in a training course (e.g. project, problem-solving, etc)</rdfs:comment>
+        <rdfs:label>Assignments</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#audience -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#audience">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment about the target audience of a training course</rdfs:comment>
+        <rdfs:label>Audience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#auxiliary -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#auxiliary">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_instruments"/>
+        <rdfs:comment>A subject related to the use of auxiliary instruments to support the learning experience in a training course</rdfs:comment>
+        <rdfs:label>Auxiliary</rdfs:label>
     </owl:Class>
     
 
@@ -63,11 +184,131 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#badge -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#badge">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_support"/>
+        <rdfs:comment>A comment related to the provision of badges identifying the participants (e.g. name, affiliation, interests) in a training room</rdfs:comment>
+        <rdfs:label>Badge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#bottom_up -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#bottom_up">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#approach"/>
+        <rdfs:comment>A comment related to the approach of sequential progressing of a subject theme from the small details to the broaden concepts in a training course</rdfs:comment>
+        <rdfs:label>Bottom-up approach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#break -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#break">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#activity"/>
+        <rdfs:comment>A comment related to the break periods of a training course</rdfs:comment>
+        <rdfs:label>Break</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#call -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#call">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#registration"/>
+        <rdfs:comment>A comment related to the application call for a training course</rdfs:comment>
+        <rdfs:label>Call</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#catering -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#catering">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_support"/>
+        <rdfs:comment>A comment related to the provision of the coffee-breaks and lunch break in a training course</rdfs:comment>
+        <rdfs:label>Catering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#class_size -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#class_size">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the number of participants in a training course</rdfs:comment>
+        <rdfs:label>Class size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#climate -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#climate">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#training_room"/>
+        <rdfs:comment>A comment related to the environmental conditions of the training room where a training course takes place</rdfs:comment>
+        <rdfs:label>Climate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#communication -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#communication">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content"/>
+        <rdfs:comment>A comment related to the communication of the content in a training course</rdfs:comment>
+        <rdfs:label>Communication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#computers -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#computers">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#equipment"/>
+        <rdfs:comment>A comment related to the computers in a training course</rdfs:comment>
+        <rdfs:label>Computers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_scheme -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_scheme">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content"/>
+        <rdfs:comment>A comment related to the organization and structure of the content delivered in a training course</rdfs:comment>
+        <rdfs:label>Content scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_type -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_type">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content"/>
+        <rdfs:comment>A subject related to the type of educational content delivered in a training course</rdfs:comment>
+        <rdfs:label>Content type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#context -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#context">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content"/>
+        <rdfs:comment>A comment related to the context preferred to illustrate the theme covered in a training course</rdfs:comment>
+        <rdfs:label>Context</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#contextualization -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#contextualization">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_centred"/>
-        <rdfs:comment>A subject related to the contextualization of the participant that attended a training course</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#pre_course"/>
+        <rdfs:comment>A subject related to the participant&apos;s context prior to the start date of a training course</rdfs:comment>
         <rdfs:label>Contextualization</rdfs:label>
     </owl:Class>
     
@@ -88,6 +329,7 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#organization_centred"/>
         <rdfs:comment>A subject related to the design and implementation of a training course</rdfs:comment>
+        <rdfs:label>Course design and delivery</rdfs:label>
     </owl:Class>
     
 
@@ -97,6 +339,7 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_logistics">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#organization_centred"/>
         <rdfs:comment>A subject related to the logistic organization of a training course</rdfs:comment>
+        <rdfs:label>Course logistics</rdfs:label>
     </owl:Class>
     
 
@@ -105,8 +348,166 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_preparation">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#organization_centred"/>
-        <rdfs:comment>A comment related to the preparation in advance of a training course</rdfs:comment>
+        <rdfs:comment>A comment related to the prior preparation to the deployment of a training course</rdfs:comment>
         <rdfs:label>Course preparation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_type -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_type">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the format of a training course</rdfs:comment>
+        <rdfs:label>Course type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#coverage -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#coverage">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the topic coverage of a training course</rdfs:comment>
+        <rdfs:label>Topic coverage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#data_file -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#data_file">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#materials"/>
+        <rdfs:comment>A comment related to the physical files which contain the data delivered in a training course</rdfs:comment>
+        <rdfs:label>Data file</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#databases -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#databases">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tools"/>
+        <rdfs:comment>A comment related to the databases selected as platforms to use in a training course</rdfs:comment>
+        <rdfs:label>Databases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#dataset -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#dataset">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tools"/>
+        <rdfs:comment>A comment related to the set of data and the type of data preferred to cover the theme in a training course</rdfs:comment>
+        <rdfs:label>Dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#depth -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#depth">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content"/>
+        <rdfs:comment>A comment related to the depth of the contents delivered in a training course</rdfs:comment>
+        <rdfs:label>Depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#description -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#description">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#announcement"/>
+        <rdfs:comment>A comment related to the information presented in the advertisement notice</rdfs:comment>
+        <rdfs:label>Description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#directions -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#directions">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_support"/>
+        <rdfs:comment>A comment related to the instructions provided to the location of a training course</rdfs:comment>
+        <rdfs:label>Directions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#discussion -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#discussion">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#activity"/>
+        <rdfs:comment>A comment related to the discussion component in a training course</rdfs:comment>
+        <rdfs:label>Discussion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#duration -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#duration">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the total length of a training course</rdfs:comment>
+        <rdfs:label>Duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#strategies"/>
+        <rdfs:comment>A subject related to the educational content designed and delivered in a training course</rdfs:comment>
+        <rdfs:label>Educational content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#environment -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#environment">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the environment established in a training course</rdfs:comment>
+        <rdfs:label>Environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#equipment -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#equipment">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#resources"/>
+        <rdfs:comment>A comment related to the equipment and technology used to assist a training course</rdfs:comment>
+        <rdfs:label>Equipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#exam -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#exam">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#sumative_assess"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#examples -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#examples">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_type"/>
+        <rdfs:comment>A comment related to the examples used to cover the theme in a training course</rdfs:comment>
+        <rdfs:label>Examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#exercises -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#exercises">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_type"/>
+        <rdfs:comment>A comment related to the exercises used to cover the theme in a training course</rdfs:comment>
+        <rdfs:label>Exercises</rdfs:label>
     </owl:Class>
     
 
@@ -114,9 +515,19 @@
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#expectations -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#expectations">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_centred"/>
-        <rdfs:comment>A comment related to what the participant expects to learn in a training course and whether this expectations were fulfilled</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#pre_course"/>
+        <rdfs:comment>A comment related to what the participant expects to learn in a training course</rdfs:comment>
         <rdfs:label>Expectations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#explanations -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#explanations">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_type"/>
+        <rdfs:comment>A comment related to the explanations provided in a training course</rdfs:comment>
+        <rdfs:label>Explanations</rdfs:label>
     </owl:Class>
     
 
@@ -125,7 +536,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#extra_organization">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_assessment"/>
-        <rdfs:comment>A subject related to the organization of a training course out of the scope of the organization team</rdfs:comment>
+        <rdfs:comment>A subject related to the functioning of a training course out of the scope of the organization team</rdfs:comment>
         <rdfs:label>Extra-organization</rdfs:label>
     </owl:Class>
     
@@ -141,6 +552,46 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#flipped_class -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#flipped_class">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#methods"/>
+        <rdfs:comment>A comment related to the adoption of the flipped classroom model in a training course</rdfs:comment>
+        <rdfs:label>Flipped class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#formal_assess -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#formal_assess">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#formative_assess"/>
+        <rdfs:comment>A comment related to the use of an assessment instrument in a formal modality in a training course (e.g. questionnaires, socrative, etc)</rdfs:comment>
+        <rdfs:label>Formal assess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#formative_assess -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#formative_assess">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#assessment_instruments"/>
+        <rdfs:comment>A subject related to the formative assessment of participant&apos;s learning progress in a training course</rdfs:comment>
+        <rdfs:label>Formative assess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#furniture -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#furniture">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#training_room"/>
+        <rdfs:comment>A comment related to the furniture of the training room where a training course takes place</rdfs:comment>
+        <rdfs:label>Furniture</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#future_course_theme -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#future_course_theme">
@@ -151,12 +602,341 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#games -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#games">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_type"/>
+        <rdfs:comment>A comment related to the games proposed in a training course to enhance the learning experience</rdfs:comment>
+        <rdfs:label>Games</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#global -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#global">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#modality"/>
+        <rdfs:comment>A comment related to the global type of instruction delivered in a training course (i.e. activities performed synchronously by all the instructor(s) and participant(s)</rdfs:comment>
+        <rdfs:label>Global</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#goals -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#goals">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the aim and goals intended in a training course</rdfs:comment>
+        <rdfs:label>Goals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#group_criteria -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#group_criteria">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#grouping"/>
+        <rdfs:comment>A comment related to the criteria behind the choice of groups formed in behalf of a training course</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#group_size -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#group_size">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#grouping"/>
+        <rdfs:comment>A comment related to the number of participants of  the groups formed in behalf of a training course</rdfs:comment>
+        <rdfs:label>Group size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#grouping -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#grouping">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#methods"/>
+        <rdfs:comment>A comment related to the adoption of the technique of grouping the participants in a training course</rdfs:comment>
+        <rdfs:label>Grouping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#guidance -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#guidance">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#implementation"/>
+        <rdfs:comment>A comment related to the use of the guidance technique to provide instruction in a training course</rdfs:comment>
+        <rdfs:label>Guidance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#guideline -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#guideline">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#auxiliary"/>
+        <rdfs:comment>A comment related to the use of explicit guidelines to support the assignments and the comprehension of the theme covered in a training course</rdfs:comment>
+        <rdfs:label>Guideline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#handouts -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#handouts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#materials"/>
+        <rdfs:comment>A comment related to the materials that are provided to the participants of a training course to support the learning experience in time</rdfs:comment>
+        <rdfs:label>Handouts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#hands_on -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#hands_on">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#methods"/>
+        <rdfs:comment>A comment related to the adoption of the hands-on model in a training course</rdfs:comment>
+        <rdfs:label>Hands-on</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#housing_and_parking -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#housing_and_parking">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_support"/>
+        <rdfs:comment>A comment related to the accommodations and parking options available for the participant of a training course</rdfs:comment>
+        <rdfs:label>Housing and parking</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#impact -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#impact">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_centred"/>
-        <rdfs:comment>A comment about the foreseeable impact of a training course to the participant professional life</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#post_course"/>
+        <rdfs:comment>A comment related to the foreseeable impact of a training course in the participant&apos;s point of view</rdfs:comment>
         <rdfs:label>Impact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#implementation -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#implementation">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_methodology"/>
+        <rdfs:comment>A subject related to the implementation of the methods and techniques in a training course</rdfs:comment>
+        <rdfs:label>Implementation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#informal_assess -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#informal_assess">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#formative_assess"/>
+        <rdfs:comment>A comment related to the use of an assessment instrument in an informal modality in a training course (e.g. raising hands, lamp system, coloured post-its, etc)</rdfs:comment>
+        <rdfs:label>Informal assess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#input_file -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#input_file">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#data_file"/>
+        <rdfs:comment>A comment related to the input files used in a training course</rdfs:comment>
+        <rdfs:label>Input file</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_instruments -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_instruments">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#strategies"/>
+        <rdfs:comment>A subject related to the instruments selected to facilitate the learning experience in a training course</rdfs:comment>
+        <rdfs:label>Instructional instruments</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_methodology -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_methodology">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#strategies"/>
+        <rdfs:comment>A subject related to the instruction and methods designed and applied in a training course</rdfs:comment>
+        <rdfs:label>Instructional methodology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructors -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructors">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#staff"/>
+        <rdfs:comment>A comment related to the team responsible for the pedagogical aspects (i.e. instruction) in a training course</rdfs:comment>
+        <rdfs:label>Instructors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_methodology"/>
+        <rdfs:comment>A subject related to the interaction type facilitated in a training course</rdfs:comment>
+        <rdfs:label>Interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction_content -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction_content">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction"/>
+        <rdfs:comment>A comment related to the interaction promoted with the content in a training course</rdfs:comment>
+        <rdfs:label>Interaction with the content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction_instructor -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction_instructor">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction"/>
+        <rdfs:comment>A comment related to the interaction facilitated between the instructor(s) and the participant(s) in a training course</rdfs:comment>
+        <rdfs:label>Interaction with instructor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction_peers -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction_peers">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interaction"/>
+        <rdfs:comment>A comment related to the interaction facilitated between the participants in a training course</rdfs:comment>
+        <rdfs:label>Interaction with peers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#introduction -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#introduction">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_scheme"/>
+        <rdfs:comment>A comment related to the introduction part of the topic in a training course</rdfs:comment>
+        <rdfs:label>Introduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#language_fluency -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#language_fluency">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructors"/>
+        <rdfs:comment>A comment related to the language fluency of the members of the team involved in a training course</rdfs:comment>
+        <rdfs:label>Language fluency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#lecture -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#lecture">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#activity"/>
+        <rdfs:comment>A comment related to the lecture component in a training course</rdfs:comment>
+        <rdfs:label>Lecture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#lecturing -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#lecturing">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#methods"/>
+        <rdfs:comment>A comment related to the adoption of the lecturing model in a training course</rdfs:comment>
+        <rdfs:label>Lecturing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#level -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#level">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content"/>
+        <rdfs:comment>A comment related to the level of the contents delivered in the training course</rdfs:comment>
+        <rdfs:label>Level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#lighting -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#lighting">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#climate"/>
+        <rdfs:comment>A comment related to the light quality of the training room where a training course takes place</rdfs:comment>
+        <rdfs:label>Lighting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#live_scripting -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#live_scripting">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#implementation"/>
+        <rdfs:comment>A comment related to the use of the live scripting technique to provide instruction in a training course</rdfs:comment>
+        <rdfs:label>Live scripting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#load -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#load">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content"/>
+        <rdfs:comment>A comment related to the content loading in a training course</rdfs:comment>
+        <rdfs:label>Load</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#location -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#location">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_logistics"/>
+        <rdfs:comment>A comment related to a training course site (including the location of the coffee-breaks)</rdfs:comment>
+        <rdfs:label>Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#materials -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#materials">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A subject related to the materials designed and presented in a training course</rdfs:comment>
+        <rdfs:label>Materials</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#methods -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#methods">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_methodology"/>
+        <rdfs:comment>A subject related to the method(s) and technique(s) adopted in a training course</rdfs:comment>
+        <rdfs:label>Methods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#modality -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#modality">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_methodology"/>
+        <rdfs:comment>A subject related to the modality of instruction in a training course</rdfs:comment>
+        <rdfs:label>Modality</rdfs:label>
     </owl:Class>
     
 
@@ -171,12 +951,112 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#network_connection -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#network_connection">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#equipment"/>
+        <rdfs:comment>A comment related to the network connection used in a training course</rdfs:comment>
+        <rdfs:label>Network_connection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#noise -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#noise">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#climate"/>
+        <rdfs:comment>A comment related to the soundproof system and the noise of the training room where a training course takes place</rdfs:comment>
+        <rdfs:label>Noise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#number -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#number">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructors"/>
+        <rdfs:comment>A comment related to the number that comprise the team involved in a training course</rdfs:comment>
+        <rdfs:label>Number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#object -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#object">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content"/>
+        <rdfs:comment>A comment related to the organism or system selected to illustrate the theme covered in a training course</rdfs:comment>
+        <rdfs:label>Object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#office_supplies -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#office_supplies">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_support"/>
+        <rdfs:comment>A comment related to the provision of office material (e.g. pens, notepads, etc) in a training course</rdfs:comment>
+        <rdfs:label>Office supplies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#operating_system -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#operating_system">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#equipment"/>
+        <rdfs:comment>A comment related to the operating system used to run a training course</rdfs:comment>
+        <rdfs:label>Operating_system</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#organization_centred -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#organization_centred">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_assessment"/>
-        <rdfs:comment>A subject related to the organization of a training course in which the organization team is directly involved.</rdfs:comment>
+        <rdfs:comment>A subject related to the organization of a training course in which the organization team is directly involved</rdfs:comment>
         <rdfs:label>Organization centred</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#organizers -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#organizers">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#staff"/>
+        <rdfs:comment>A comment related to the team responsible for the organizational aspects of a training course</rdfs:comment>
+        <rdfs:label>Organizers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#output_file -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#output_file">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#data_file"/>
+        <rdfs:comment>A comment related to the output files and results produced in a training course</rdfs:comment>
+        <rdfs:label>Output file</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#own_data -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#own_data">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#dataset"/>
+        <rdfs:comment>A comment related to the use of participant’s own data to cover the theme in training course</rdfs:comment>
+        <rdfs:label>Own data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#pace -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#pace">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the pace imposed in a training course</rdfs:comment>
+        <rdfs:label>Pace</rdfs:label>
     </owl:Class>
     
 
@@ -186,7 +1066,7 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_centred">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_assessment"/>
         <rdfs:comment>A subject related to the participant attendance and experience in a training course</rdfs:comment>
-        <rdfs:label>Participant-centred</rdfs:label>
+        <rdfs:label>Participant centred</rdfs:label>
     </owl:Class>
     
 
@@ -200,12 +1080,92 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_supoort -->
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_support -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_supoort">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_support">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_logistics"/>
-        <rdfs:comment>A subject related to the support provided to the participant that attends a training course</rdfs:comment>
+        <rdfs:comment>A subject related to the support provided to the participant enrolled in a training course</rdfs:comment>
         <rdfs:label>Participant support</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#payment -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#payment">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#registration"/>
+        <rdfs:comment>A comment related to the payment process and procedures of a training course</rdfs:comment>
+        <rdfs:label>Payment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#personalized -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#personalized">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#modality"/>
+        <rdfs:comment>A comment related to the personalized type of instruction delivered in a training course (i.e. activities directed to the participant&apos;s particular interests)</rdfs:comment>
+        <rdfs:label>Personalized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#post_course -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#post_course">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_centred"/>
+        <rdfs:comment>A subject related to the feedback shared by a participant after attending a training course</rdfs:comment>
+        <rdfs:label>Post-course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#practice -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#practice">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#activity"/>
+        <rdfs:comment>A comment related to the practical component in a training course</rdfs:comment>
+        <rdfs:label>Practice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#pre_course -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#pre_course">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_centred"/>
+        <rdfs:comment>A subject related to an aspect concerning the experience of a participant before attending a training course</rdfs:comment>
+        <rdfs:label>Pre-course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#prerequisites -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#prerequisites">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the prerequesites required to a gratified experience in a training course</rdfs:comment>
+        <rdfs:label>Prerequisites</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#presentations -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#presentations">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#materials"/>
+        <rdfs:comment>A comment related to the slide presentations displayed in a training course</rdfs:comment>
+        <rdfs:label>Presentations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#previous_course -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#previous_course">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_support"/>
+        <rdfs:comment>A comment related to the organization of a thematic course prior to a training course</rdfs:comment>
+        <rdfs:label>Previous_course</rdfs:label>
     </owl:Class>
     
 
@@ -230,6 +1190,26 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#projector -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#projector">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#equipment"/>
+        <rdfs:comment>A comment related to the projector system used in a training course</rdfs:comment>
+        <rdfs:label>Projector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#publicity -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#publicity">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#announcement"/>
+        <rdfs:comment>A comment related to the advertising strategy of a training course</rdfs:comment>
+        <rdfs:label>Publicity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#publicity_source -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#publicity_source">
@@ -240,12 +1220,42 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#raw_data -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#raw_data">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#dataset"/>
+        <rdfs:comment>A comment related to the use of raw data to cover the theme in training course</rdfs:comment>
+        <rdfs:label>Raw data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#real_data -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#real_data">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#dataset"/>
+        <rdfs:comment>A comment related to the use of real-life data to cover the theme in training course</rdfs:comment>
+        <rdfs:label>Real data</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#recommendation -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#recommendation">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_centred"/>
-        <rdfs:comment>A comment related to the pariticipant’s willingness to recommend the course</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#post_course"/>
+        <rdfs:comment>A comment related to the participant’s willingness to recommend a training course</rdfs:comment>
         <rdfs:label>Recommendation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#references -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#references">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#educational_content"/>
+        <rdfs:comment>A comment related to the references recommended in a training course</rdfs:comment>
+        <rdfs:label>References</rdfs:label>
     </owl:Class>
     
 
@@ -254,8 +1264,138 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#registration">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_logistics"/>
-        <rdfs:comment>A subject related to the registration of a training course</rdfs:comment>
+        <rdfs:comment>A subject related to the registration process of a training course</rdfs:comment>
         <rdfs:label>Registration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#reminder -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#reminder">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#announcement"/>
+        <rdfs:comment>A comment related to the provision of a reminder notice for a training course event</rdfs:comment>
+        <rdfs:label>Reminder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#resources -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#resources">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A subject related to the resources used to facilitate a training course</rdfs:comment>
+        <rdfs:label>Resources</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#scope -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#scope">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the topic extent covered in a training course</rdfs:comment>
+        <rdfs:label>Course scope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#screens -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#screens">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#computers"/>
+        <rdfs:comment>A comment related to the screens of the computers in a training course</rdfs:comment>
+        <rdfs:label>Screens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#self_assessment -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#self_assessment">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#post_course"/>
+        <rdfs:comment>A subject related to the skills that the participant believe to have gained in participating in a training course</rdfs:comment>
+        <rdfs:label>Self-assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#servers -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#servers">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#equipment"/>
+        <rdfs:comment>A comment related to the servers used in a training course</rdfs:comment>
+        <rdfs:label>Servers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#shuffling_pairs -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#shuffling_pairs">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#implementation"/>
+        <rdfs:comment>A comment related to the use of the shuffling pairs technique in a training room</rdfs:comment>
+        <rdfs:label>Shuffling-pairs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#simulated_data -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#simulated_data">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#dataset"/>
+        <rdfs:comment>A comment related to the use of simulated data to cover the theme in a training course</rdfs:comment>
+        <rdfs:label>Simulated data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#social -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#social">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_support"/>
+        <rdfs:comment>A comment related to the activities of social engagement facilitated outside of the context of the training room in a training course</rdfs:comment>
+        <rdfs:label>Social</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#social_event -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#social_event">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#social"/>
+        <rdfs:comment>A comment related to the promotion and organization of a event (e.g. dinner) during the timespan of a training course</rdfs:comment>
+        <rdfs:label>Social event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#software -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#software">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tools"/>
+        <rdfs:comment>A comment related to the software tool selected to deploy the theme in a training course</rdfs:comment>
+        <rdfs:label>Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#space -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#space">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#training_room"/>
+        <rdfs:comment>A comment related to the space distribution of the training room where a training course takes place</rdfs:comment>
+        <rdfs:label>Space</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#staff -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#staff">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#resources"/>
+        <rdfs:comment>A comment related to the staff involved in a training course</rdfs:comment>
+        <rdfs:label>Staff</rdfs:label>
     </owl:Class>
     
 
@@ -263,9 +1403,49 @@
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#statement -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#statement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_centred"/>
-        <rdfs:comment>Comment related to what the participant perceived to have learned in a training course</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#post_course"/>
+        <rdfs:comment>A comment related to what the participant perceived to have learned in a training course</rdfs:comment>
         <rdfs:label>Statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#strategies -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#strategies">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A subject related to the strategies designed and implemented in a training course</rdfs:comment>
+        <rdfs:label>Strategies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#structure -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#structure">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the structure of a training course</rdfs:comment>
+        <rdfs:label>Structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#sumative_assess -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#sumative_assess">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#assessment_instruments"/>
+        <rdfs:comment>A subject related to the sumative assessment of participant&apos;s learning effectiveness in a training course (e.g. exam, diploma)</rdfs:comment>
+        <rdfs:label>Sumative assess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#temperature -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#temperature">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#climate"/>
+        <rdfs:comment>A comment related to the climatization system and the temperature of the training room where a training course takes place</rdfs:comment>
+        <rdfs:label>Temperature</rdfs:label>
     </owl:Class>
     
 
@@ -273,9 +1453,69 @@
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#testimonial -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#testimonial">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_centred"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#post_course"/>
         <rdfs:comment>A comment related to the participant&apos; s overall experience and general appreciation about a training course</rdfs:comment>
         <rdfs:label>Testimonial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#theme_focus -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#theme_focus">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the focus concerning the subject area of a training course</rdfs:comment>
+        <rdfs:label>Theme focus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#theoretical_practical -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#theoretical_practical">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#activity"/>
+        <rdfs:comment>A comment related to the relation between the theoretical and the practical components in a training course</rdfs:comment>
+        <rdfs:label>Theoretical-practical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#time_frame -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#time_frame">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#timetable"/>
+        <rdfs:comment>A comment related to the daily schedule of a training course in terms of clock (i.e. start time and end time and period time)</rdfs:comment>
+        <rdfs:label>Time frame</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#time_management -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#time_management">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the time management of a training course</rdfs:comment>
+        <rdfs:label>Time management</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#time_slot -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#time_slot">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#timetable"/>
+        <rdfs:comment>A comment related to the time allocated for each section and the time distribution within each section (e.g. division in morning block, lunch break, afternoon block) in a training course</rdfs:comment>
+        <rdfs:label>Time slot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#timetable -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#timetable">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
+        <rdfs:comment>A comment related to the timetable of a training course</rdfs:comment>
+        <rdfs:label>Timetable</rdfs:label>
     </owl:Class>
     
 
@@ -285,6 +1525,87 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#title">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#organization_centred"/>
         <rdfs:comment>A comment related to the name of the course</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tools -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tools">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructional_instruments"/>
+        <rdfs:comment>A comment related to the tool(s) and/or platform(s) selected to cover the theme in a training course</rdfs:comment>
+        <rdfs:label>Tools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#top_down -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#top_down">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#approach"/>
+        <rdfs:comment>A comment related to the approach of covering a subject starting with the abstract concepts and working down the theme to the specfic details in a training course</rdfs:comment>
+        <rdfs:label>Top-down approach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#topics -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#topics">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#structure"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#time_management"/>
+        <rdfs:comment>A comment related to the topics covered in a training course</rdfs:comment>
+        <rdfs:label>Topics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#training_room -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#training_room">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#resources"/>
+        <rdfs:comment>A comment related to the comfort ot the training room where a training course takes place</rdfs:comment>
+        <rdfs:label>Training room</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tutorials -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tutorials">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#materials"/>
+        <rdfs:comment>A comment related to the tutorials and/or manual actively used in a training course</rdfs:comment>
+        <rdfs:label>Tutorials</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tutoring -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tutoring">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#methods"/>
+        <rdfs:comment>A comment related to the adoption of the tutoring model in a training course</rdfs:comment>
+        <rdfs:label>Tutoring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#video_recording -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#video_recording">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#auxiliary"/>
+        <rdfs:comment>A comment related to the recording in video of a training course</rdfs:comment>
+        <rdfs:label>Video recording</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#wrap_up -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#wrap_up">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_scheme"/>
+        <rdfs:comment>A comment related to the overview part of the content in a training course</rdfs:comment>
+        <rdfs:label>Wrap-up</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
