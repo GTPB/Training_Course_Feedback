@@ -542,7 +542,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#directions">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#participant_support"/>
-        <rdfs:comment>A comment related to the instructions provided to the location of a training course</rdfs:comment>
+        <rdfs:comment>A comment related to the welcoming of the participant in the first day of a training course. It includes the provision of instructions to the training room.</rdfs:comment>
         <rdfs:label>Directions</rdfs:label>
     </owl:Class>
     
