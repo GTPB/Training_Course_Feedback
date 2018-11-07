@@ -558,6 +558,16 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#documentation -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#documentation">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#application"/>
+        <rdfs:comment>A comment related to the documentation needed for the accomplishment of the application process</rdfs:comment>
+        <rdfs:label>Documentation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#duration -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#duration">
@@ -1530,6 +1540,17 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#punctuality -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#punctuality">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tag_descriptor"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#timetable"/>
+        <rdfs:comment>A comment related to the accuracy of the timing planned in the timetable in a training course</rdfs:comment>
+        <rdfs:label>Punctuality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#quantity -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#quantity">
@@ -1554,6 +1575,16 @@
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#dataset"/>
         <rdfs:comment>A comment related to the use of real-life data to cover the theme in training course</rdfs:comment>
         <rdfs:label>Real data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#receipt -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#receipt">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#application"/>
+        <rdfs:comment>A comment related to the acknowledgement of delivery communication to the participant of a training course.</rdfs:comment>
+        <rdfs:label>Receipt</rdfs:label>
     </owl:Class>
     
 
