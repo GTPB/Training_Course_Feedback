@@ -470,6 +470,16 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#criteria -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#criteria">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#admission"/>
+        <rdfs:comment>A comment related to the criteria selected to admit the participants in a training course</rdfs:comment>
+        <rdfs:label>Admission criteria</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#critical_thinking -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#critical_thinking">
@@ -1495,7 +1505,10 @@
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#proficiency -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#proficiency">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#instructors"/>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tag_descriptor"/>
+        <rdfs:comment>A comment related to the proficiency of the pedagogical team perceived by the participant of a training course</rdfs:comment>
+        <rdfs:label>Proficiency</rdfs:label>
     </owl:Class>
     
 
