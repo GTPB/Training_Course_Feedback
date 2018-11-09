@@ -286,6 +286,16 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#city_tour -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#city_tour">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#social"/>
+        <rdfs:comment>A comment related to the promotion and organization of a guided tour to local places during the timespan of a training course</rdfs:comment>
+        <rdfs:label>City tour</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#clarity -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#clarity">
