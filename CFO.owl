@@ -1077,12 +1077,32 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interesting -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#interesting">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#testimonial"/>
+        <rdfs:comment>The course was interesting</rdfs:comment>
+        <rdfs:label>Interesting</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#introduction -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#introduction">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#content_scheme"/>
         <rdfs:comment>A comment related to the introduction part of the topic in a training course</rdfs:comment>
         <rdfs:label>Introduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#knowledge_improvement -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#knowledge_improvement">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#self_assessment"/>
+        <rdfs:comment>The participant believes to have improved in knowledge on the subject theme addressed in a training course</rdfs:comment>
+        <rdfs:label>Knowledge improvement</rdfs:label>
     </owl:Class>
     
 
@@ -1229,6 +1249,16 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#navigability">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#tag_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#need_more_study -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#need_more_study">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#self_assessment"/>
+        <rdfs:comment>The participant believes that needs more study to get confidence in the subject theme addressed in a training course</rdfs:comment>
+        <rdfs:label>Need more study</rdfs:label>
     </owl:Class>
     
 
