@@ -484,7 +484,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_type">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#course_design_and_delivery"/>
-        <rdfs:comment>A comment related to the format of a training course</rdfs:comment>
+        <rdfs:comment>A comment related to the format of a training course (i.e. practical, theoretical, etc)</rdfs:comment>
         <rdfs:label>Course type</rdfs:label>
     </owl:Class>
     
@@ -2093,7 +2093,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#top_down">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/GTPB/Training_Course_Feedback/master/CFO.owl#approach"/>
-        <rdfs:comment>A comment related to the approach of covering a subject starting with the abstract concepts and working down the theme to the specfic details in a training course</rdfs:comment>
+        <rdfs:comment>A comment related to the approach of covering a subject starting with the abstract concepts and working down the theme, step by step, to the specfic details in a training course</rdfs:comment>
         <rdfs:label>Top-down approach</rdfs:label>
     </owl:Class>
     
